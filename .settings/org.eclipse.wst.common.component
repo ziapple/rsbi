@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="rsbi">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <dependent-module archiveName="ojdbc6-12.1.0.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/rsbi-pom/libs/ojdbc6-12.1.0.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ext3-1.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/rsbi-pom/libs/ext3-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/rsbi/target/classes"/>
+        <property name="context-root" value="rsbi"/>
+    </wb-module>
+</project-modules>

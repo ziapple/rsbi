@@ -1,0 +1,1 @@
+select  a0.rid as rid, a0.ip as ip, a0.date as date, a0.path as path, a0.browser as browser from test_dm_logs a0 where 1=1  
